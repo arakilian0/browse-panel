@@ -1,0 +1,26 @@
+{
+  "browser_action": {
+    "default_title": "Theme switcher",
+    "default_popup": "popup.html",
+    "browser_style": true,
+    "default_icon": {
+        "128": "icon.svg"
+    }
+  },
+  "description": "An example of how to use the management API for themes.",
+  "homepage_url": "https://github.com/arakilian0",
+  "manifest_version": 2,
+  "name": "Theme Switcher",
+  "permissions": [
+    "management"
+  ],
+  "icons": {
+      "128": "icon.svg"
+  },
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+        "strict_min_version": "55.0a1"
+    }
+  }
+}
